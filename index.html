@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuthub</title>
+    <link rel="shortcut icon" href="img/งานโปรไฟล์เกมมิ่ง-No-BG.ico">
+	<!-- Bootstrap 4.5 CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Kanit:wght@300;400;500;600;700&family=Pattaya&family=Prompt&family=Sriracha&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+	<form action="">
+		<div class="container">
+			<div class="col-12 text- mt-0">
+		  <a href="index.html" class="navbar-brand"><img src="img/มหาวิทยาลัยแม่โจ้_edit.png"
+		alt="Logo" title="Logo"></a>
+			<div class="position-absolute top-0 end-0"><h1 class="text" style="font-size: 24px;" >มจท.10</h1></div>
+	</div>
+		  </div>
+	
+	
+	<header>
+		<section class="section">
+			<div class="container">
+			  <h1 class="title">
+				<p align="center"class="text" style="font-size: 24px;" >คําร้องขอลาพักการศึกษา</p>
+			  </h1>
+			  <p class="subtitle">
+			  <p align="center">(สําหรับนักศึกษาที่ได้ศึกษามาแล้วไม่น้อยกว่าหนึ่งภาคการศึกษา)</p>
+			  <div class="col-sm-9">
+				<label for="start">วัน/เดือน/ปีที่กรอก:</label>
+				<input type="date" id="start" name="trip-start" value="2020-012-21" min="2020-01-01" max="20-12-31"
+				  required>
+			  </div>
+			 
+			  <p> <b>เรื่อง</b> ขอลาพักการศึกษา &nbsp;ในภาคเรียน
+				<label class="radio"></label>
+				<input type="radio" name="answer">
+				1
+				</label>
+				<label class="radio">
+				  <input type="radio" name="answer">
+				  2
+				</label>
+				<input type="number" placeholder="ปีการศึกษา" maxlength="4" > 
+			  </p>
+		   
+			  <p><b>เรียน</b> คณะบดีคณะ
+				
+		  
+				<select>
+				  <option value="---เลือกคณะ---">---เลือกคณะ---</option>
+				  <option value="คณะผลิตกรรมการเกษตร">คณะผลิตกรรมการเกษตร</option>
+				  <option value="คณะสัตวศาสตร์และเทคโนโลยี">คณะสัตวศาสตร์และเทคโนโลยี</option>
+				  <option value="คณะสถาปัตยกรรมและการออกแบบสิ่งแวดล้อม">คณะสถาปัตยกรรมและการออกแบบสิ่งแวดล้อม</option>
+				  <option value="คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ">คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ</option>
+				  <option value="คณะบริหารธุรกิจ">คณะบริหารธุรกิจ</option>
+				  <option value="คณะเศรษฐศาสตร์">คณะเศรษฐศาสตร์</option>
+				  <option value="คณะสารสนเทศและการสื่อสาร">คณะสารสนเทศและการสื่อสาร</option>
+				  <option value="คณะวิศวกรรมและอุตสาหกรรมเกษตร">คณะวิศวกรรมและอุตสาหกรรมเกษตร</option>
+				  <option value="คณะวิทยาศาสตร์">คณะวิทยาศาสตร์</option>
+				  <option value="คณะศิลปศาสตร์">คณะศิลปศาสตร์</option>
+				  <option value="คณะพัฒนาการท่องเที่ยว">คณะพัฒนาการท่องเที่ยว</option>
+				  <option value="วิทยาลัยบริหารศาสตร์">วิทยาลัยบริหารศาสตร์</option>
+				  <option value="วิทยาลัยพลังงานทดแทน">พลังงานทดแทน</option>
+				  <option value="แม่โจ้-แพร่ เฉลิมพระเกียรติ">แม่โจ้-แพร่ เฉลิมพระเกียรติ </option>
+				  <option value="แม่โจ้-ชุมพร">แม่โจ้-ชุมพร</option>
+				</select>
+		
+				</p>
+				<p> ข้าพเจ้า <label class="radio"></label>
+				  <input type="radio" name="answer">
+				  นาย
+				  </label>
+				  <label class="radio">
+					<input type="radio" name="answer">
+					นาง
+				  </label>
+				  <label class="radio">
+					<input type="radio" name="answer">
+					นางสาว
+				  </label>
+				  ชื่อ-นามสกุล
+				
+				 <input placeholder="ชื่อ-นามสกุล" type="text" name="fname" id="fname"onKeyUp="if(!(isNaN(this.value)))
+				 { alert('กรุณาพิมพ์ตัวอักษร'); this.value='';}" pattern="[A-Za-z]{1,50}" required>
+			  
+				<p>
+				  รหัสนักศึกษา (10หลัก) <input type="text" maxlength="10" name="text_plain"
+					onKeyUp="if(isNaN(this.value)){ alert('กรุณาพิมพ์ตัวเลข'); this.value='';}" />
+				  เบอร์โทรศัพท์มือถือ (10หลัก) <input type="text" maxlength="10" name="text_plain"
+					onKeyUp="if(isNaN(this.value)){ alert('กรุณาพิมพ์ตัวเลข'); this.value='';}" /> </p>
+				</p>
+				<p>
+				  โปรดระบุหลักสูตรปริญญาตรี <label class="radio"></label>
+				  <input type="radio" name="answer">
+				  4 – 5 ปี
+				  </label>
+				  <label class="radio">
+					<input type="radio" name="answer">
+					4 ปีเทียบเข้าเรียน (2ปี)
+				  </label>
+				  <label class="radio">
+					<input type="radio" name="answer">
+					ภาคปกติ
+				  </label>
+				  </label>
+				  <label class="radio">
+					<input type="radio" name="answer">
+					ภาคสมทบ
+				  </label>
+				   <p> คณะ 
+					<select>
+					  <option value="---เลือกคณะ---">---เลือกคณะ---</option>
+					  <option value="คณะผลิตกรรมการเกษตร">คณะผลิตกรรมการเกษตร</option>
+					  <option value="คณะสัตวศาสตร์และเทคโนโลยี">คณะสัตวศาสตร์และเทคโนโลยี</option>
+					  <option value="คณะสถาปัตยกรรมและการออกแบบสิ่งแวดล้อม">คณะสถาปัตยกรรมและการออกแบบสิ่งแวดล้อม</option>
+					  <option value="คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ">คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ</option>
+					  <option value="คณะบริหารธุรกิจ">คณะบริหารธุรกิจ</option>
+					  <option value="คณะเศรษฐศาสตร์">คณะเศรษฐศาสตร์</option>
+					  <option value="คณะสารสนเทศและการสื่อสาร">คณะสารสนเทศและการสื่อสาร</option>
+					  <option value="คณะวิศวกรรมและอุตสาหกรรมเกษตร">คณะวิศวกรรมและอุตสาหกรรมเกษตร</option>
+					  <option value="คณะวิทยาศาสตร์">คณะวิทยาศาสตร์</option>
+					  <option value="คณะศิลปศาสตร์">คณะศิลปศาสตร์</option>
+					  <option value="คณะพัฒนาการท่องเที่ยว">คณะพัฒนาการท่องเที่ยว</option>
+					  <option value="วิทยาลัยบริหารศาสตร์">วิทยาลัยบริหารศาสตร์</option>
+					  <option value="วิทยาลัยพลังงานทดแทน">พลังงานทดแทน</option>
+					  <option value="แม่โจ้-แพร่ เฉลิมพระเกียรติ">แม่โจ้-แพร่ เฉลิมพระเกียรติ </option>
+					  <option value="แม่โจ้-ชุมพร">แม่โจ้-ชุมพร</option>
+					</select>
+		
+					สาขา
+					<input placeholder="สาขา" type="text" name="fname" id="fname"onKeyUp="if(!(isNaN(this.value)))
+				 { alert('กรุณาพิมพ์ตัวอักษร'); this.value='';}" pattern="[A-Za-z]{1,50}" required>
+				  
+				</p>
+				<p> มีความประสงค์จะขอลาพักการศึกษา เนื่องจาก <label class="radio"></label><input type="text" name="fname" id="fname" required></p><br>
+				<tp >
+				<p>พร้อมนี้ได้แนบใบยินยอมขอลาพักการศึกษาจากผู้ปกครอง / ใบรับรองแพทย์ / เอกสารอื่นๆ </p>
+				<p>จึงเรียนมาเพื่อโปรดพิจารณา</p><br>
+				<p><div class="col-sm-9">
+					<center>
+					ขอแสดงความนับถือ
+					<label for="validationServer01"></label>
+					<input type="text" class="form-control " id="ชื่อ" value="" placeholder="ชื่อ..." maxlength="50"
+					  onKeyUp="if(!(isNaN(this.value))) { alert('โปรดใส่ชื่อเป็นตัวอักษร'); this.value='';}" required>
+				  
+				  <div class="col-sm-9">
+					<label for="formFile" class="form-label">อัปโหลดลายเซ็น</label>
+					<input class="form-control" type="file" id="FileSignature" required>
+				  </div>นักศึกษา</p>
+				</center>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6">
+					  <div class="card">
+						<center>
+						  <div class="card-body">
+							<p class="text" style="font-size: 17px;">(2) ความเห็นหัวหน้ากลุ่มภารกิจทะเบียนเรียน ประมวลผลฯ</p>
+							<input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+							<label class="form-check-label-center" for="exampleCheck1">ทราบ
+							  นักศึกษาดังกล่าวสามารถลาพักการศึกษาได้</label>
+							<div class="col-sm-24">
+							  <div class="custom-control custom-radio custom-control-inline">
+								<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input"
+								  required>
+								<label class="custom-control-label" for="customRadioInline1">ภาคเรียนที่ 1 </label>
+							  </div>
+							  <div class="custom-control custom-radio custom-control-inline">
+								<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input"
+								  required>
+								<label class="custom-control-label" for="customRadioInline2">ภาคเรียนที่ 2 </label>
+							  </div>
+							</div>
+							<div class="col-sm-9">
+							  <label for="validationServer01">หัวหน้ากลุ่มภารกิจทะเบียนเรียน ประมวลผลฯ</label>
+							  <input type="text" class="form-control " id="ชื่อ" value="" placeholder="ชื่อ..." maxlength="50"
+								onKeyUp="if(!(isNaN(this.value))) { alert('โปรดใส่ชื่อเป็นตัวอักษร'); this.value='';}" required>
+							</div>
+							<div class="col-sm-9">
+							  <label for="formFile" class="form-label">อัปโหลดลายเซ็น</label>
+							  <input class="form-control" type="file" id="FileSignature" required>
+							</div>
+							<div class="col-sm-9">
+							  <label for="start">วัน/เดือน/ปีที่กรอก:</label>
+							  <input type="date" id="start" name="trip-start" value="2020-012-21" min="2020-01-01" max="20-12-31"
+								required>
+							</div>
+						  </div>
+						</center>
+					  </div>
+					</div>
+			  </div>
+			  <div class="row">
+				<div class="col-sm-6">
+				  <div class="card">
+					<center>
+					  <div class="card-body">
+						<p class="text" style="font-size: 17px;">(3) ความเห็นผู้อํานวยการสํานักบริหารและพัฒนาวิชาการ</p>
+						<input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+						<label class="form-check-label-center" for="exampleCheck1">ทราบ
+						  นักศึกษาดังกล่าวสามารถลาพักการศึกษาได้</label>
+						  <div class="col-sm-9">
+						  <label for="validationServer01">ผู้อํานวยการสํานักบริหารและพัฒนาวิชาการ</label>
+						  <input type="text" class="form-control " id="ชื่อ" value="" placeholder="ชื่อ..." maxlength="50"
+							onKeyUp="if(!(isNaN(this.value))) { alert('โปรดใส่ชื่อเป็นตัวอักษร'); this.value='';}" required>
+						</div>
+						<div class="col-sm-9">
+						  <label for="formFile" class="form-label">อัปโหลดลายเซ็น</label>
+						  <input class="form-control" type="file" id="FileSignature" required>
+						</div>
+						<div class="col-sm-9">
+						  <label for="start">วัน/เดือน/ปีที่กรอก:</label>
+						  <input type="date" id="start" name="trip-start" value="2020-012-21" min="2020-01-01" max="20-12-31"
+							required>
+						</div>
+					  </div>
+					</center>
+				  </div>
+				</div>
+			</div>
+				<div class="row">
+					<div class="col-sm-6">
+					  <div class="card">
+						<center>
+						  <div class="card-body">
+							<p class="text" style="font-size: 17px;">(4) ความเห็นอาจารย์ที่ปรึกษา</p>
+							<input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+							<label class="form-check-label-center" for="exampleCheck1">ทราบ</label>
+							  <div class="col-sm-9">
+							  <label for="validationServer01"></label>
+							  <input type="text" class="form-control " id="ชื่อ" value="" placeholder="ชื่อ..." maxlength="50"
+								onKeyUp="if(!(isNaN(this.value))) { alert('โปรดใส่ชื่อเป็นตัวอักษร'); this.value='';}" required>
+							</div>
+							<div class="col-sm-9">
+							  <label for="formFile" class="form-label">อัปโหลดลายเซ็น</label>
+							  <input class="form-control" type="file" id="FileSignature" required>
+							</div>
+							<div class="col-sm-9">
+							  <label for="start">วัน/เดือน/ปีที่กรอก:</label>
+							  <input type="date" id="start" name="trip-start" value="2020-012-21" min="2020-01-01" max="20-12-31"
+								required>
+							</div>
+						  </div>
+						</center>
+					  </div>
+					</div>
+				</div>
+					<div class="row">
+						<div class="col-sm-6">
+						  <div class="card">
+							<center>
+							  <div class="card-body">
+								<p class="text" style="font-size: 17px;">(5) ความเห็นประธานคณะกรรมการประจําหลักสูตร</p>
+								<input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+								<label class="form-check-label-center" for="exampleCheck1">ทราบ</label>
+								  <div class="col-sm-9">
+								  <label for="validationServer01"></label>
+								  <input type="text" class="form-control " id="ชื่อ" value="" placeholder="ชื่อ..." maxlength="50"
+									onKeyUp="if(!(isNaN(this.value))) { alert('โปรดใส่ชื่อเป็นตัวอักษร'); this.value='';}" required>
+								</div>
+								<div class="col-sm-9">
+								  <label for="formFile" class="form-label">อัปโหลดลายเซ็น</label>
+								  <input class="form-control" type="file" id="FileSignature" required>
+								</div>
+								<div class="col-sm-9">
+								  <label for="start">วัน/เดือน/ปีที่กรอก:</label>
+								  <input type="date" id="start" name="trip-start" value="2020-012-21" min="2020-01-01" max="20-12-31"
+									required>
+								</div>
+							  </div>
+							</center>
+						  </div>
+						</div>
+					</div>
+						<div class="row">
+							<div class="col-sm-6">
+							  <div class="card">
+								<center>
+								  <div class="card-body">
+									<p class="text" style="font-size: 17px;">(6) ความเห็นคณบดี</p>
+									<input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+									<label class="form-check-label-center" for="exampleCheck1">อนุมัติ</label>
+									<input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+									<label class="form-check-label-center" for="exampleCheck1">ไม่อนุมัติ</label>
+									  <div class="col-sm-9">
+									  <label for="validationServer01"></label>
+									  <input type="text" class="form-control " id="ชื่อ" value="" placeholder="ชื่อ..." maxlength="50"
+										onKeyUp="if(!(isNaN(this.value))) { alert('โปรดใส่ชื่อเป็นตัวอักษร'); this.value='';}" required>
+									</div>
+									<div class="col-sm-9">
+									  <label for="formFile" class="form-label">อัปโหลดลายเซ็น</label>
+									  <input class="form-control" type="file" id="FileSignature" required>
+									</div>
+									<div class="col-sm-9">
+									  <label for="start">วัน/เดือน/ปีที่กรอก:</label>
+									  <input type="date" id="start" name="trip-start" value="2020-012-21" min="2020-01-01" max="20-12-31"
+										required>
+									</div>
+								  </div>
+								</center>
+							  </div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+							  <div class="card">
+								<center>
+								  <div class="card-body">
+									<p class="text" style="font-size: 17px;">(7) งานเงินรายได้ กองคลัง ชั้น 2 อาคารอิงคศรีกสิการ
+										ได้รับชําระเงินจํานวน</p>
+									<input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+									<label class="form-check-label-center" for="exampleCheck1">ภาคเรียนที่1 1,200 บาท</label>
+									<input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+									<label class="form-check-label-center" for="exampleCheck1">ภาคเรียนที่2 1,000 บาท</label>
+									  <div class="col-sm-9">
+									  <label for="validationServer01">ผู้รับเงิน</label>
+									  <input type="text" class="form-control " id="ชื่อ" value="" placeholder="ชื่อ..." maxlength="50"
+										onKeyUp="if(!(isNaN(this.value))) { alert('โปรดใส่ชื่อเป็นตัวอักษร'); this.value='';}" required>
+									</div>
+									<div class="col-sm-9">
+									  <label for="formFile" class="form-label">อัปโหลดลายเซ็น</label>
+									  <input class="form-control" type="file" id="FileSignature" required>
+									</div>
+									<div class="col-sm-9">
+									  <label for="start">วัน/เดือน/ปีที่กรอก:</label>
+									  <input type="date" id="start" name="trip-start" value="2020-012-21" min="2020-01-01" max="20-12-31"
+										required>
+									</div>
+								  </div>
+								</center>
+							  </div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+							  <div class="card">
+								<center>
+								  <div class="card-body">
+									<p class="text" style="font-size: 17px;"><b>(8) ส่งเอกสารคําร้องขอลาพักการศึกษาตัวจริง</b>ให้กลุ่มภารกิจ
+										ทะเบียนฯ ชั้น 2 อาคารอํานวย ยศสุข เพื่อบันทึกคําร้องขอลาพัก
+										การศึกษาและให้นักศึกษาเก็บหลักฐานใบเสร็จที่ชําระเงินไว้
+										เพื่อตรวจสอบการบันทึกการลาพักการศึกษา</p>
+									</div>
+								  </div>
+								</center>
+							  </div>
+							</div>
+						
+						<div class="row">
+							<div class="col-sm-6">
+							  <div class="card">
+								<center>
+								  <div class="card-body">
+									<p class="text" style="font-size: 17px;">(9) สําหรับเจ้าหน้าที่บันทึกลงฐานข้อมูล ได้บันทึกการข้อมูล
+										ดังกล่าว</p>
+									<div class="col-sm-9">
+									  <label for="formFile" class="form-label">อัปโหลดลายเซ็น</label>
+									  <input class="form-control" type="file" id="FileSignature" required>
+									</div>
+									<div class="col-sm-9">
+									  <label for="start">วัน/เดือน/ปีที่กรอก:</label>
+									  <input type="date" id="start" name="trip-start" value="2020-012-21" min="2020-01-01" max="20-12-31"
+										required>
+									</div>
+								  </div>
+								</center>
+							  </div>
+							</div>
+						</div>
+						<h1 >
+							<b><p ></p></b> 
+						   </h1>
+						   <h1 >
+							<b><p ></p></b> 
+						   </h1>
+	
+						<h1 >
+						 <b><p class="text" style="font-size: 24px;" >คํารับรองของผู้ปกครอง</p></b> 
+						</h1>
+						
+						<p for="start">เขียนที่ บ้านเลขที่ <input type="text" maxlength="10" name="text_plain"
+							onKeyUp="if(isNaN(this.value)){ alert('กรุณาพิมพ์ตัวเลข'); this.value='';}" > หมู่ที่ <input type="text" maxlength="10" name="text_plain"
+							onKeyUp="if(isNaN(this.value)){ alert('กรุณาพิมพ์ตัวเลข'); this.value='';}" >ตําบล<input type="text" maxlength="10" name="text_plain"
+							onKeyUp="if(isNaN(this.value)){ alert('กรุณาพิมพ์ตัวเลข'); this.value='';}" >
+						</p>
+						<p>อำเภอ <input  type="text" name="fname" id="fname" required>
+						  จังหวัด
+						  <select>
+							<option value="---เลือกคณะ---">---เลือกจังหวัด---</option>
+							<option value="จังหวัดเชียงราย ">จังหวัดเชียงราย </option>
+							<option value="จังหวัดเชียงใหม่ ">จังหวัดเชียงใหม่ </option>
+							<option value="จังหวัดน่าน ">จังหวัดน่าน </option>
+							<option value="จังหวัดพะเยา ">จังหวัดพะเยา </option>
+							<option value="จังหวัดแพร่ ">จังหวัดแพร่ </option>
+							<option value="จังหวัดแม่ฮ่องสอน ">จังหวัดแม่ฮ่องสอน </option>
+							<option value="จังหวัดลำปาง ">จังหวัดลำปาง </option>
+							<option value="จังหวัดลำพูน ">จังหวัดลำพูน </option>
+							<option value="จังหวัดอุตรดิตถ์">จังหวัดอุตรดิตถ์</option>
+							<option value="จังหวัดกาฬสินธุ์ ">จังหวัดกาฬสินธุ์ </option>
+							<option value="จังหวัดขอนแก่น ">จังหวัดขอนแก่น </option>
+							<option value="จังหวัดชัยภูมิ ">จังหวัดชัยภูมิ </option>
+							<option value="จังหวัดนครพนม ">จังหวัดนครพนม </option>
+							<option value="จังหวัดนครราชสีมา ">จังหวัดนครราชสีมา </option>
+							<option value="จังหวัดบึงกาฬ ">จังหวัดบึงกาฬ </option>
+							<option value="จังหวัดบุรีรัมย์ ">จังหวัดบุรีรัมย์ </option>
+							<option value="จังหวัดมหาสารคาม ">จังหวัดมหาสารคาม </option>
+							<option value="จังหวัดมุกดาหาร ">จังหวัดมุกดาหาร </option>
+							<option value="จังหวัดยโสธร ">จังหวัดยโสธร </option>
+							<option value="จังหวัดร้อยเอ็ด ">จังหวัดร้อยเอ็ด </option>
+							<option value="จังหวัดเลย ">จังหวัดเลย </option>
+							<option value="จังหวัดสกลนคร ">จังหวัดสกลนคร </option>
+							<option value="จังหวัดสุรินทร์ ">จังหวัดสุรินทร์ </option>
+							<option value="จังหวัดศรีสะเกษ ">จังหวัดศรีสะเกษ </option>
+							<option value="จังหวัดหนองคาย ">จังหวัดหนองคาย </option>
+							<option value="จังหวัดหนองบัวลำภู ">จังหวัดหนองบัวลำภู </option>
+							<option value="จังหวัดอุดรธานี ">จังหวัดอุดรธานี </option>
+							<option value="จังหวัดอุบลราชธานี ">จังหวัดอุบลราชธานี </option>
+							<option value="จังหวัดอำนาจเจริญ ">จังหวัดอำนาจเจริญ </option>
+							<option value="จังหวัดกำแพงเพชร ">จังหวัดกำแพงเพชร </option>
+							<option value="จังหวัดชัยนาท">จังหวัดชัยนาท</option>
+							<option value="จังหวัดนครนายก ">จังหวัดนครนายก </option>
+							<option value="จังหวัดนครปฐม ">จังหวัดนครปฐม </option>
+							<option value="จังหวัดนครสวรรค์ ">จังหวัดนครสวรรค์ </option>
+							<option value="จังหวัดนนทบุรี ">จังหวัดนนทบุรี </option>
+							<option value="จังหวัดปทุมธานี ">จังหวัดปทุมธานี </option>
+							<option value="จังหวัดพระนครศรีอยุธยา ">จังหวัดพระนครศรีอยุธยา </option>
+							<option value="จังหวัดพิจิตร ">จังหวัดพิจิตร </option>
+							<option value="จังหวัดพิษณุโลก ">จังหวัดพิษณุโลก </option>
+							<option value="จังหวัดเพชรบูรณ์ ">จังหวัดเพชรบูรณ์ </option>
+							<option value="จังหวัดลพบุรี ">จังหวัดลพบุรี </option>
+							<option value="จังหวัดสมุทรปราการ ">จังหวัดสมุทรปราการ </option>
+							<option value="จังหวัดสมุทรสงคราม ">จังหวัดสมุทรสงคราม </option>
+							<option value="จังหวัดสมุทรสาคร ">จังหวัดสมุทรสาคร </option>
+							<option value="จังหวัดสิงห์บุรี ">จังหวัดสิงห์บุรี </option>
+							<option value="จังหวัดสุโขทัย ">จังหวัดสุโขทัย </option>
+							<option value="จังหวัดสุพรรณบุรี ">จังหวัดสุพรรณบุรี </option>
+							<option value="จังหวัดสระบุรี ">จังหวัดสระบุรี </option>
+							<option value="จังหวัดอ่างทอง ">จังหวัดอ่างทอง </option>
+							<option value="จังหวัดอุทัยธานี ">จังหวัดอุทัยธานี </option>
+							<option value="จังหวัดจันทบุรี ">จังหวัดจันทบุรี </option>
+							<option value="จังหวัดฉะเชิงเทรา">จังหวัดฉะเชิงเทรา</option>
+							<option value="จังหวัดชลบุรี ">จังหวัดชลบุรี </option>
+							<option value="จังหวัดตราด ">จังหวัดตราด </option>
+							<option value="จังหวัดปราจีนบุรี ">จังหวัดปราจีนบุรี </option>
+							<option value="จังหวัดระยอง ">จังหวัดระยอง </option>
+							<option value="จังหวัดสระแก้ว">จังหวัดสระแก้ว</option>
+							<option value="จังหวัดกาญจนบุรี ">จังหวัดกาญจนบุรี </option>
+							<option value="จังหวัดตาก ">จังหวัดตาก </option>
+							<option value="จังหวัดประจวบคีรีขันธ์ ">จังหวัดประจวบคีรีขันธ์ </option>
+							<option value="จังหวัดเพชรบุรี ">จังหวัดเพชรบุรี </option>
+							<option value="จังหวัดราชบุรี ">จังหวัดราชบุรี </option>
+							<option value="จังหวัดกระบี่ ">จังหวัดกระบี่ </option>
+							<option value="จังหวัดชุมพร ">จังหวัดชุมพร </option>
+							<option value="จังหวัดตรัง ">จังหวัดตรัง </option>
+							<option value="จังหวัดนครศรีธรรมราช ">จังหวัดนครศรีธรรมราช </option>
+							<option value="จังหวัดนราธิวาส ">จังหวัดนราธิวาส </option>
+							<option value="จังหวัดปัตตานี ">จังหวัดปัตตานี </option>
+							<option value="จังหวัดพังงา ">จังหวัดพังงา </option>
+							<option value="จังหวัดพัทลุง ">จังหวัดพัทลุง </option>
+							<option value="จังหวัดภูเก็ต ">จังหวัดภูเก็ต </option>
+							<option value="จังหวัดระนอง ">จังหวัดระนอง </option>
+							<option value="จังหวัดสตูล ">จังหวัดสตูล </option>
+							<option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
+							<option value="จังหวัดสงขลา ">จังหวัดสงขลา </option>
+							<option value="จังหวัดสุราษฎร์ธานี ">จังหวัดสุราษฎร์ธานี </option>
+							<option value="จังหวัดยะลา ">จังหวัดยะลา </option>
+						  </select></p>
+						  <p for="start">รหัสไปรษณีย์ <input  type="text" name="fname" id="fname" required> โทรศัพท์ <input type="text" name="fname" id="fname" required> 
+						  </p>
+						  <tp><label for="start">วัน/เดือน/ปีที่กรอก:</label>
+							<input type="date" id="start" name="trip-start" value="2020-012-21" min="2020-01-01" max="20-12-31"></tp>
+							<p></p>
+							<br>
+							<p> <b>เรื่อง</b> ขอลาพักการศึกษา &nbsp;ในภาคเรียน
+							  <label class="radio"></label>
+							  <input type="radio" name="answer">
+							  1
+							  </label>
+							  <label class="radio">
+								<input type="radio" name="answer">
+								2
+							  </label>
+							  <input type="number" placeholder="ปีการศึกษา" maxlength="4" > 
+							</p>
+						 
+							<p><b>เรียน</b> คณะบดีคณะ
+						
+							  <select>
+								<option value="---เลือกคณะ---">---เลือกคณะ---</option>
+								<option value="คณะผลิตกรรมการเกษตร">คณะผลิตกรรมการเกษตร</option>
+								<option value="คณะสัตวศาสตร์และเทคโนโลยี">คณะสัตวศาสตร์และเทคโนโลยี</option>
+								<option value="คณะสถาปัตยกรรมและการออกแบบสิ่งแวดล้อม">คณะสถาปัตยกรรมและการออกแบบสิ่งแวดล้อม</option>
+								<option value="คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ">คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ</option>
+								<option value="คณะบริหารธุรกิจ">คณะบริหารธุรกิจ</option>
+								<option value="คณะเศรษฐศาสตร์">คณะเศรษฐศาสตร์</option>
+								<option value="คณะสารสนเทศและการสื่อสาร">คณะสารสนเทศและการสื่อสาร</option>
+								<option value="คณะวิศวกรรมและอุตสาหกรรมเกษตร">คณะวิศวกรรมและอุตสาหกรรมเกษตร</option>
+								<option value="คณะวิทยาศาสตร์">คณะวิทยาศาสตร์</option>
+								<option value="คณะศิลปศาสตร์">คณะศิลปศาสตร์</option>
+								<option value="คณะพัฒนาการท่องเที่ยว">คณะพัฒนาการท่องเที่ยว</option>
+								<option value="วิทยาลัยบริหารศาสตร์">วิทยาลัยบริหารศาสตร์</option>
+								<option value="วิทยาลัยพลังงานทดแทน">พลังงานทดแทน</option>
+								<option value="แม่โจ้-แพร่ เฉลิมพระเกียรติ">แม่โจ้-แพร่ เฉลิมพระเกียรติ </option>
+								<option value="แม่โจ้-ชุมพร">แม่โจ้-ชุมพร</option>
+							  </select>
+					  
+							  </p>
+							  <p> ตามที่ <label class="radio"></label>
+								<input type="radio" name="answer">
+								นาย
+								</label>
+								<label class="radio">
+								  <input type="radio" name="answer">
+								  นาง
+								</label>
+								<label class="radio">
+								  <input type="radio" name="answer">
+								  นางสาว
+								</label>
+								ชื่อ-นามสกุล
+							   <input placeholder="ชื่อ" type="text" name="fname" id="fname" onKeyUp="if(!(isNaN(this.value))){ alert('เขียนตัวเลขไม่ได้'); this.value='';}" pattern="[A-Za-z]{1,50}" required>
+							
+							  <p>
+								รหัสนักศึกษา (10หลัก) <input type="text" maxlength="10" name="text_plain"
+								  onKeyUp="if(isNaN(this.value)){ alert('กรุณาพิมพ์ตัวเลข'); this.value='';}" />
+								โทรศัพท์มือถือ (10หลัก) <input type="text" maxlength="10" name="text_plain"
+								  onKeyUp="if(isNaN(this.value)){ alert('กรุณาพิมพ์ตัวเลข'); this.value='';}" /> </p>
+							  </p>
+							  <p>
+								โปรดระบุหลักสูตรปริญญาตรี <label class="radio"></label>
+								<input type="radio" name="answer">
+								4 – 5 ปี
+								</label>
+								<label class="radio">
+								  <input type="radio" name="answer">
+								  4 ปีเทียบเข้าเรียน (2ปี)
+								</label>
+								<label class="radio">
+								  <input type="radio" name="answer">
+								  ภาคปกติ
+								</label>
+								</label>
+								<label class="radio">
+								  <input type="radio" name="answer">
+								  ภาคสมทบ
+								</label>
+								 <p> คณะ 
+								  <select>
+									<option value="---เลือกคณะ---">---เลือกคณะ---</option>
+									<option value="คณะผลิตกรรมการเกษตร">คณะผลิตกรรมการเกษตร</option>
+									<option value="คณะสัตวศาสตร์และเทคโนโลยี">คณะสัตวศาสตร์และเทคโนโลยี</option>
+									<option value="คณะสถาปัตยกรรมและการออกแบบสิ่งแวดล้อม">คณะสถาปัตยกรรมและการออกแบบสิ่งแวดล้อม</option>
+									<option value="คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ">คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ</option>
+									<option value="คณะบริหารธุรกิจ">คณะบริหารธุรกิจ</option>
+									<option value="คณะเศรษฐศาสตร์">คณะเศรษฐศาสตร์</option>
+									<option value="คณะสารสนเทศและการสื่อสาร">คณะสารสนเทศและการสื่อสาร</option>
+									<option value="คณะวิศวกรรมและอุตสาหกรรมเกษตร">คณะวิศวกรรมและอุตสาหกรรมเกษตร</option>
+									<option value="คณะวิทยาศาสตร์">คณะวิทยาศาสตร์</option>
+									<option value="คณะศิลปศาสตร์">คณะศิลปศาสตร์</option>
+									<option value="คณะพัฒนาการท่องเที่ยว">คณะพัฒนาการท่องเที่ยว</option>
+									<option value="วิทยาลัยบริหารศาสตร์">วิทยาลัยบริหารศาสตร์</option>
+									<option value="วิทยาลัยพลังงานทดแทน">พลังงานทดแทน</option>
+									<option value="แม่โจ้-แพร่ เฉลิมพระเกียรติ">แม่โจ้-แพร่ เฉลิมพระเกียรติ </option>
+									<option value="แม่โจ้-ชุมพร">แม่โจ้-ชุมพร</option>
+								  </select>
+					  
+								  สาขา
+								  <input placeholder="สาขา" type="text" name="fname" id="fname"onKeyUp="if(!(isNaN(this.value)))
+								  { alert('กรุณาพิมพ์ตัวอักษร'); this.value='';}" pattern="[A-Za-z]{1,50}" required> 
+								 </p>
+								
+							  </p>
+							  <p> ซึ่งเป็นนักศึกษาในความปกครองของข้าพเจ้ามีความประสงค์จะขอลาพักการศึกษา &nbsp;ในภาคเรียน
+								<label class="radio"></label>
+								<input type="radio" name="answer">
+								1
+								</label>
+								<label class="radio">
+								  <input type="radio" name="answer">
+								  2
+								</label>
+								<input type="number" placeholder="ปีการศึกษา" maxlength="4" > 
+							  </p>
+							 <p>เนื่องจาก <input  type="text" name="fname" id="fname" required></p> 
+							  <p> ข้าพเจ้า <label class="radio"></label>
+								<input type="radio" name="answer">
+								นาย
+								</label>
+								<label class="radio">
+								  <input type="radio" name="answer">
+								  นาง
+								</label>
+								<label class="radio">
+								  <input type="radio" name="answer">
+								  นางสาว
+								</label>
+								ชื่อ-นามสกุล
+							   <input placeholder="ชื่อ" type="text" name="fname" id="fname" onKeyUp="if(!(isNaN(this.value))){ alert('เขียนตัวเลขไม่ได้'); this.value='';}" pattern="[A-Za-z]{1,50}" required>
+							  <p>
+							  <p>ผู้ปกครองของนักศึกษาดังกล่าวข้างต้น ได้รับทราบการขอลาพักการศึกษาแล้ว และยินดีให้ปฏิบัติตามความประสงค์ของนักศึกษา
+								<br>จึงเรียนมาเพื่อโปรดทราบ</p>
+								
+								<p><div class="col-sm-9">
+									<center>
+									ขอแสดงความนับถือ
+									<label for="validationServer01"></label>
+									<input type="text" class="form-control " id="ชื่อ" value="" placeholder="ชื่อ..." maxlength="50"
+									  onKeyUp="if(!(isNaN(this.value))) { alert('โปรดใส่ชื่อเป็นตัวอักษร'); this.value='';}" required>
+								  
+								  <div class="col-sm-9">
+									<label for="formFile" class="form-label">อัปโหลดลายเซ็น</label>
+									<input class="form-control" type="file" id="FileSignature" required>
+								  </div>ผู้ปกครองนักศึกษา</p>นักศึกษา</p>
+								</center>
+								</div>
+							  <p><b> ขั้นตอนการเสนอคําร้องลาพักการศึกษา</b><br>
+								1. นักศึกษากรอกคําร้องขอลาพักการศึกษา<br>
+								2. เสนอคําร้องต่อหัวหน้ากลุ่มภารกิจทะเบียนเรียน ประมวลผลฯ<br>
+								3. เสนอคําร้องต่อผู้อํานวยการสํานักบริหารและพัฒนาวิชาการ (ชั้น 3 อาคารอํานวย ยศสุข)<br>
+								4. เสนอคําร้องต่ออาจารย2ที่ปรึกษา (คณะที่นักศึกษาสังกัด)<br>
+								5. เสนอคําร้องต่อประธานคณะกรรมการประจําหลักสูตร (คณะที่นักศึกษาสังกัด)<br>
+								6. เสนอคําร้องต่อคณบดี เพื่ออนุมัติ (คณะที่นักศึกษาสังกัด)<br>
+								7. นําคําร้องไปชําระเงิน (กองคลัง ชั้น 2 อาคารอิงคศรีกสิการ)<br>
+								8. นําคําร้องขอลาพักการศึกษา ที่ชําระเงินแล้ว (ยื่นต่อกลุ่มภารกิจทะเบียนเรียนฯ)<br>
+								เพื่อบันทึกฐานข้อมูลนักศึกษาต่อไป<br>
+								9. เจ้าหน้าที่ทะเบียนฯ บันทึกลงฐานข้อมูล นักศึกษาสามารถตรวจสอบได้ในวันต่อไป </p>
+								
+								<input type="submit" value="ตกลง">
+				</form>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!-- jQuery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<!-- Bootstrap 4.5 JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Font Awesome -->
+	<script src="js/all.min.js"></script>
+
+</body>
+</html>
